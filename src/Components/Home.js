@@ -7,7 +7,43 @@ function Home() {
     fontSize: '50x',
   };
 
-  const teamNameList = ["trtrt", "Download Weathery Nowww!!!", "PAPA JIII", "Team 1"]; //TEAM NAMES ACCORDING TO REGISTRATION, MANUALLY UPDATED
+  const teamNameList = [
+    "Team Sahil",
+    "Bombastic",
+    "BingeWatch",
+    "Non-Metallica",
+    "Fukrey",
+    "LiLiLarks",
+    "Team DCP",
+    "Team JNL",
+    "BACKSHOTS",
+    "THE JIGSAW's",
+    "Quad Squad",
+    "ALPHA Q",
+    "Discarded Retardeds",
+    "Trackers",
+    "VIT Falcons",
+    "Nexus",
+    "Deadpool",
+    "Unaborted 4",
+    "Winners",
+    "Knee grow",
+    "NoShitSherlock",
+    "Pesa",
+    "Momo",
+    "Hustlers",
+    "Clueless",
+    "Diamond 1",
+    "Knightmares",
+    "Teen Titans",
+    "Team Kryptonite",
+    "Niggamons",
+    "Valhalla",
+    "Team Hell",
+    "Gang314",
+    "POTASS",
+    "Insidious"
+]; //TEAM NAMES ACCORDING TO REGISTRATION, MANUALLY UPDATED
   const [teamScores, setTeamScores] = useState({});
   const [sortedObject, setSortedObject] = useState({});
 
