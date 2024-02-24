@@ -8,6 +8,8 @@ function Home() {
   };
 
   const teamNameList = [
+    "Alpha One",
+    "Meth",
     "Team Sahil",
     "Bombastic",
     "BingeWatch",
