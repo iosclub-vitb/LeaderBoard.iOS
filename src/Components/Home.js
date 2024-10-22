@@ -60,6 +60,7 @@ function Home() {
     "Xcoders",
     "Kothri lions",
     "Trailblazersss",
+    "MAP"
   ]; //TEAM NAMES ACCORDING TO REGISTRATION, MANUALLY UPDATED
   const [teamScores, setTeamScores] = useState({});
   const [sortedObject, setSortedObject] = useState({});
