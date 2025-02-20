@@ -8,60 +8,33 @@ function Home() {
   };
 
   const teamNameList = [
-    "OrganicPunks",
-    "Qara qoldar",
-    "Team 3AM",
-    "Team RVR",
-    "iCode Warriors",
-    "iOS Innovators",
-    "Team Synergy",
-    "NHT",
-    "Y U Bully Me",
-    "POKIE_HACKERS",
-    "IOS team",
-    "codecraft",
-    "No Direction",
-    "Future billionaires",
-    "Power Rangers-iOS",
-    "Data smiths",
-    "Phantom Phreaks",
-    "Cove",
-    "Pixel",
-    "K2",
-    "Synergy Squad",
-    "Team techy",
-    "ALPHA",
+    "Viterbetter",
+    "POOKIE HACKERZ",
+    "Team elite mavericks",
+    "King slayers",
+    "The Pirates",
+    "ChaturBhuj",
+    "Atharv tyagi",
+    "Hawks",
+    "602",
+    "IGL",
+    "VIJAY",
+    "NEXUS",
+    "Samay raina",
+    "Team11",
+    "C611",
+    "Manik Pandey",
+    "HRTV",
     "Beast",
-    "Safari",
-    "ERROR404.......",
-    "BLACK HAWKS",
-    "WolfZ",
-    "Mission Possible",
-    "Mca24",
-    "Tech Titans",
-    "404Found",
-    "The caffeine cowboys",
-    "Duniya ke rakhwale",
-    "Android users",
-    "CODECRAFTERS",
-    "Intellectual_04",
-    "HUNTERS",
-    "Team Horizon",
-    "MaggiCrypters",
-    "Red_Ace",
-    "Power Rangers",
-    "Samsung_Best",
-    "Lolz",
-    "TECH_WARRIORS",
-    "BETA",
-    "Team B-iOS",
-    "Team Guava",
-    "Team Wolves",
-    "Xcoders",
-    "Kothri lions",
-    "Trailblazersss",
-    "MAP"
-  ]; //TEAM NAMES ACCORDING TO REGISTRATION, MANUALLY UPDATED
+    "Wolves",
+    "Team Nemesis",
+    "Night Baron",
+    "Proxy",
+    "Phoenix",
+    "Weekend Warriors",
+    "LAGAAN"
+  ];
+  //TEAM NAMES ACCORDING TO REGISTRATION, MANUALLY UPDATED
   const [teamScores, setTeamScores] = useState({});
   const [sortedObject, setSortedObject] = useState({});
 
@@ -70,7 +43,7 @@ function Home() {
       const data = {};
       for (let index = 0; index < teamNameList.length; index++) {
         const teamName = teamNameList[index];
-        await fetch("https://api.counterapi.dev/v1/ios_unlocked/" + teamName)
+        await fetch("https://api.counterapi.dev/v1/gameflix30/" + teamName)
           .then((res) => {
             return res.json();
           })
